@@ -21,13 +21,13 @@ Notatnik API to prosty serwer REST API, który pozwala na tworzenie, odczytywani
 1. Sklonuj repozytorium:
 
 ```
-git clone https://github.com/nazwa_uzytkownika/notatnik-api.git
+git clone https://github.com/petitoff/note-app-api.git
 ```
 
 2. Zainstaluj wymagane zależności:
 
 ```
-cd notatnik-api
+cd note-app-api
 npm install
 ```
 
