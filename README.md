@@ -2,6 +2,12 @@
 
 Notatnik API to prosty serwer REST API, który pozwala na tworzenie, odczytywanie, aktualizowanie i usuwanie notatek. Projekt został stworzony w Node.js z wykorzystaniem frameworka Express oraz bazy danych PostgreSQL.
 
+## PostgreSQL URI in `db.js`
+
+I have intentionally placed the `Secret type: PostgreSQL URI` in the `db.js` file to allow anyone to easily use and clone this project. This decision was made to simplify the setup process and allow for greater accessibility.
+
+**Please note**: Although this approach makes it easier to get started with the project, it may have potential security risks. Make sure you understand the implications of exposing sensitive information like connection strings in your project files, and consider implementing proper security measures when deploying the project to a production environment.
+
 ## Funkcjonalności
 
 - Dodawanie nowych notatek
